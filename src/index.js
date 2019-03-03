@@ -299,7 +299,8 @@ console.log(lulus);
 // Apabila Program kita memiliki lebih dari 1 statement , maka statement tersebut akan tereksekusi dari atas ke bawah atau dari kiri ke kanan
 
 // control flow pengulangan / loop / iteration //
-// Statement yang di lakukan lebih dari satu x , lalu bisa ke lanjutkan lagi ke statement selanjutnya
+// Statement yang di lakukan lebih dari satu x atau berulang , lalu bisa ke lanjutkan lagi ke statement selanjutnya
+// Pengulangan terbagi menjadi For , While , dan Do While
 
 // Pengulangan For //
 // example
@@ -313,8 +314,51 @@ console.log(lulus);
 // alert(selesai);
 
 // Menggunakan For
-alert("mulai");
-for (var i = 0; i < 5; i++) {
-  alert("Hello World !");
-}
-alert("Selesai");
+// alert("mulai");
+// for (var i = 0; i < 5; i++) {
+//   alert("Hello World !");
+// }
+// alert("Selesai");
+
+// Pengulangan While //
+// Dengan melakukan pengulangan kita dapat melakukan suatu hal yang sama berulang x .
+// example tanpa menggunakan while
+console.log("Hello world !");
+console.log("Hello world !");
+console.log("Hello world !");
+console.log("Hello world !");
+console.log("Hello world !");
+console.log("Hello world !");
+console.log("Hello world !");
+console.log("Hello world !");
+
+// Example menggunakan While
+// Hello world bernilai true , akan terus menampilkan hingga tidak terhingga
+// Disebut juga infinite Loop / looping forever / pengulangan tanpa batas
+// while (true) {
+//   console.log('Hello World !');
+// }
+// jika bernilai false maka console.hello world tidak akan di jalankan
+// while (false) {
+//   console.log('Hello World !');
+// }
+// looping di hentikan oleh user
+// var ulang = true ;
+// while(ulang) {
+//  console.log('Hello World');
+//  ulang = confirm('Lagi?');
+// }
+
+// Pengulangan Do While //
+
+//* Pengkondisian / Percabangan //
+// Pada satu titik program kita akan di berikan kondisi , jika kondisi tersebut bernilai true dan selanjut nya akan di eksekusi yang berada di bawah nya , tapi jika kondisi tadi menghasilkan nilai false maka yang akan di eksekusi adalah statement yang lain .
+// jenis pengkondisian
+// if  , if.. else , if.. else if.. else  , dan switch
+// example
+// var angka = prompt ('Masukan Angka: ');
+// if ( angka % 2 === 0 ) {
+//  alert (angka + ' adalah bilangan GENAP');
+// } else {
+//  alert (angka + ' adalah bilangan GANJIL')
+// }
